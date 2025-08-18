@@ -3,9 +3,9 @@ name: Todo List CI/CD
 
 on:
   push:
-    branches: [main]
+    branches: [features]
   pull_request:
-    branches: [main]
+    branches: [features]
 
 jobs:
   lint-and-deploy:
