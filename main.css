@@ -19,6 +19,9 @@
 .main {
     padding-top: 50px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     
 }
 
@@ -26,3 +29,37 @@
     font-size: 100px;
     font-style: italic;
 }
+
+.tasks {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding-top: 30px;
+    background-color: aquamarine;
+}
+
+.tasks input {
+    width: 50%;
+    height: 20px;
+    text-align: center;
+}
+
+
+.list {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    min-height: 100px;
+    padding: 30px;
+    margin: 20px auto 0;
+    background-color: burlywood;
+}
+
+.task {
+    cursor: pointer;
+    border: 1px;
+}
+
+
