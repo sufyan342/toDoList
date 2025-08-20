@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page {
+    min-height: 100vh;
+    background-color: lightcyan;
+}
+
+.header {
+    background-color: antiquewhite;
+    height: 40px;
+    text-align: center;
+}
+
+
+.main {
+    padding-top: 50px;
+    text-align: center;
+    
+}
+
+.main h1 {
+    font-size: 100px;
+    font-style: italic;
+}
