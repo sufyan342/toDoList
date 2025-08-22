@@ -3,9 +3,11 @@ name: Todo List CI/CD
 
 on:
   push:
-    branches: [features]
+    branches-ignore:
+      - main
   pull_request:
-    branches: [features]
+    branches-ignore:
+      - main
 
 jobs:
   lint-and-deploy:

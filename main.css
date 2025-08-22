@@ -46,6 +46,10 @@
     text-align: center;
 }
 
+.buttons {
+    gap: 10px;
+}
+
 
 .list {
     display: flex;
