@@ -46,11 +46,15 @@
     text-align: center;
 }
 
+.buttons {
+    gap: 10px;
+}
+
 
 .list {
     display: flex;
     flex-direction: column;
-    width: 200px;
+    width: 50%;
     min-height: 100px;
     padding: 30px;
     margin: 20px auto 0;
@@ -60,6 +64,9 @@
 .task {
     cursor: pointer;
     border: 1px;
+    flex-wrap: wrap;
 }
 
-
+.task.clicked {
+    background-color: aqua;
+}
